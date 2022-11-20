@@ -1,4 +1,4 @@
-# 批量复制打包文件，并重命名为指定studentNums.properties中的值，会自动下载打包好的文件，为zip
+# 批量复制打包文件，并重命名为指定studentNums.properties中的值，会自动下载打包好的文件，名为success.zip
 ![image](https://user-images.githubusercontent.com/59493932/202903760-bd7cfd39-88b5-4f23-9acf-2f9d6c68e544.png)
 
 ## 使用方式
