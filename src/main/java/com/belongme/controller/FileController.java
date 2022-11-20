@@ -48,17 +48,4 @@ public class FileController {
         return fileService.downLoadFile();
     }
 
-
-    @RequestMapping("newFile")
-    @ResponseBody
-    public String newFile() throws UnsupportedEncodingException {
-        String pathBySystem = fileService.getPathBySystem();
-        File file = new File(pathBySystem + "files");
-        boolean mkdir = file.mkdir();
-        System.out.println(mkdir);
-        System.out.println(file.exists());
-        return pathBySystem;
-    }
-
-
 }
