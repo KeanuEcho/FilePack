@@ -3,8 +3,11 @@
 
 ## 使用方式
 ### 基于SpringBoot
-打包为jar包，上传到网站根目录，并在网站根目录创建studentConfig文件夹
-![image](https://user-images.githubusercontent.com/59493932/202903539-63c94a8b-6920-40d7-8f6a-cb84f3dc925c.png)
+打包为jar包，上传到网站根目录
+![image](https://user-images.githubusercontent.com/59493932/203309545-bea883c2-6270-401f-ae46-83b4d5cce78c.png)
 
-在文件夹内创建studentNums.properties配置文件，键随意，值会做为生成时的文件名
-![image](https://user-images.githubusercontent.com/59493932/202903556-b8e33dcb-baf3-41e6-a25a-9dec17407fc4.png)
+application.yml配置文件中的students属性为list,其中的每一项值都会做为生成时的文件名
+![image](https://user-images.githubusercontent.com/59493932/203309729-95587b45-6a2b-4bc5-8a5a-2a6270b294bb.png)
+
+程序运行效果，如下：
+![image](https://user-images.githubusercontent.com/59493932/203310923-5c08f033-f5be-4ad9-9ff6-9f25a00aab38.png)
