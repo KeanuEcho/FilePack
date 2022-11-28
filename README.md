@@ -1,7 +1,6 @@
 # FIlePack
-批量复制打包文件
 
-# 使用场景：在所有同学作业都是相同的情况下，根据配置文件批量打包，免去学习委员的苦逼CV操作
+# 批量复制打包文件，使用场景：在所有同学作业都是相同的情况下，根据配置文件批量打包，免去学习委员的苦逼CV操作
 # 并重命名为指定application.yml中student属性的各项值，会自动下载打包好的文件，名为success.zip
 ![image](https://user-images.githubusercontent.com/59493932/202903760-bd7cfd39-88b5-4f23-9acf-2f9d6c68e544.png)
 
